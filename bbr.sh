@@ -1,6 +1,6 @@
 #!/bin/bash
 # Edition : Stable Edition V3.0
-# Auther  : Geo Project
+# Auther  : Yogz Project
 # (C) Copyright 2023
 # =========================================
 
@@ -18,9 +18,9 @@ clear
 #	 menu
 #else
 
-echo -e "Installing TCP BBR Mod By YSSHstore"
+echo -e "Installing TCP BBR Mod By Satria"
 echo -e "Please Wait BBR Installation Will Starting . . ."
-sleep 5
+sleep 2.5
 clear
 
 touch /usr/local/sbin/bbr
@@ -168,8 +168,8 @@ echo -e "\e[32;1m================================\e[0m"
 Install_BBR
 Optimize_Parameters
 rm -f /root/bbr.sh >/dev/null 2>&1
-echo -e '\e[32;1m============================================================\e[0m'
-echo -e '\e[0;32m                  Installation Success!                     \e[0m'
-echo -e '\e[32;1m============================================================\e[0m'
+echo -e '\e[32;1m=======================================================\e[0m'
+echo -e '\e[0;32m                  Installation Success!                \e[0m'
+echo -e '\e[32;1m=======================================================\e[0m'
 sleep 3
 #fi
